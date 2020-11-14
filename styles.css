@@ -132,3 +132,61 @@ p::selection {
   background-color: black;
   color: antiquewhite;
 }
+
+@media screen and (max-width: 950px) {
+  .innertext {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .innertext {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .innertext {
+    font-size: 20px;
+    padding: 10px 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .innertext {
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 20px;
+  }
+  div p br {
+    display: none;
+  }
+  div p span {
+    font-size: 1em;
+  }
+  nav li {
+    font-size: small;
+    width: 100%;
+    display: block;
+    line-height: 1.5em;
+  }
+  article li {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin: 2px auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .innertext {
+    font-size: 17px;
+  }
+  header {
+    position: relative;
+  }
+  nav {
+    background-color: #f1ebeb;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+  }
+}
